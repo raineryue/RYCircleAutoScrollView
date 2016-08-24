@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D542516D1D6DA0E7002B3388 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D542516C1D6DA0E7002B3388 /* main.m */; };
+		D54251701D6DA0E7002B3388 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D542516F1D6DA0E7002B3388 /* AppDelegate.m */; };
+		D54251731D6DA0E7002B3388 /* RYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D54251721D6DA0E7002B3388 /* RYViewController.m */; };
+		D54251781D6DA0E7002B3388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D54251771D6DA0E7002B3388 /* Assets.xcassets */; };
+		D542517B1D6DA0E7002B3388 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D54251791D6DA0E7002B3388 /* LaunchScreen.storyboard */; };
+		D54251861D6DA0E8002B3388 /* RYCircleAutoScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D54251851D6DA0E8002B3388 /* RYCircleAutoScrollViewTests.m */; };
+		D54251911D6DA0E8002B3388 /* RYCircleAutoScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D54251901D6DA0E8002B3388 /* RYCircleAutoScrollViewUITests.m */; };
+		D54251A01D6DA101002B3388 /* RYCircleAutoScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D542519F1D6DA101002B3388 /* RYCircleAutoScrollView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D54251821D6DA0E8002B3388 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D54251601D6DA0E7002B3388 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D54251671D6DA0E7002B3388;
+			remoteInfo = RYCircleAutoScrollView;
+		};
+		D542518D1D6DA0E8002B3388 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D54251601D6DA0E7002B3388 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D54251671D6DA0E7002B3388;
+			remoteInfo = RYCircleAutoScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D54251681D6DA0E7002B3388 /* RYCircleAutoScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RYCircleAutoScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D542516C1D6DA0E7002B3388 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D542516E1D6DA0E7002B3388 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D542516F1D6DA0E7002B3388 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D54251711D6DA0E7002B3388 /* RYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RYViewController.h; sourceTree = "<group>"; };
+		D54251721D6DA0E7002B3388 /* RYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RYViewController.m; sourceTree = "<group>"; };
+		D54251771D6DA0E7002B3388 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D542517A1D6DA0E7002B3388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D542517C1D6DA0E7002B3388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D54251811D6DA0E8002B3388 /* RYCircleAutoScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RYCircleAutoScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D54251851D6DA0E8002B3388 /* RYCircleAutoScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RYCircleAutoScrollViewTests.m; sourceTree = "<group>"; };
+		D54251871D6DA0E8002B3388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D542518C1D6DA0E8002B3388 /* RYCircleAutoScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RYCircleAutoScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D54251901D6DA0E8002B3388 /* RYCircleAutoScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RYCircleAutoScrollViewUITests.m; sourceTree = "<group>"; };
+		D54251921D6DA0E8002B3388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D542519E1D6DA101002B3388 /* RYCircleAutoScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYCircleAutoScrollView.h; sourceTree = "<group>"; };
+		D542519F1D6DA101002B3388 /* RYCircleAutoScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYCircleAutoScrollView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D54251651D6DA0E7002B3388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D542517E1D6DA0E8002B3388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D54251891D6DA0E8002B3388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D542515F1D6DA0E7002B3388 = {
+			isa = PBXGroup;
+			children = (
+				D542516A1D6DA0E7002B3388 /* RYCircleAutoScrollView */,
+				D54251841D6DA0E8002B3388 /* RYCircleAutoScrollViewTests */,
+				D542518F1D6DA0E8002B3388 /* RYCircleAutoScrollViewUITests */,
+				D54251691D6DA0E7002B3388 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D54251691D6DA0E7002B3388 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D54251681D6DA0E7002B3388 /* RYCircleAutoScrollView.app */,
+				D54251811D6DA0E8002B3388 /* RYCircleAutoScrollViewTests.xctest */,
+				D542518C1D6DA0E8002B3388 /* RYCircleAutoScrollViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D542516A1D6DA0E7002B3388 /* RYCircleAutoScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				D542519E1D6DA101002B3388 /* RYCircleAutoScrollView.h */,
+				D542519F1D6DA101002B3388 /* RYCircleAutoScrollView.m */,
+				D542516E1D6DA0E7002B3388 /* AppDelegate.h */,
+				D542516F1D6DA0E7002B3388 /* AppDelegate.m */,
+				D54251711D6DA0E7002B3388 /* RYViewController.h */,
+				D54251721D6DA0E7002B3388 /* RYViewController.m */,
+				D54251771D6DA0E7002B3388 /* Assets.xcassets */,
+				D54251791D6DA0E7002B3388 /* LaunchScreen.storyboard */,
+				D542517C1D6DA0E7002B3388 /* Info.plist */,
+				D542516B1D6DA0E7002B3388 /* Supporting Files */,
+			);
+			path = RYCircleAutoScrollView;
+			sourceTree = "<group>";
+		};
+		D542516B1D6DA0E7002B3388 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D542516C1D6DA0E7002B3388 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D54251841D6DA0E8002B3388 /* RYCircleAutoScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				D54251851D6DA0E8002B3388 /* RYCircleAutoScrollViewTests.m */,
+				D54251871D6DA0E8002B3388 /* Info.plist */,
+			);
+			path = RYCircleAutoScrollViewTests;
+			sourceTree = "<group>";
+		};
+		D542518F1D6DA0E8002B3388 /* RYCircleAutoScrollViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D54251901D6DA0E8002B3388 /* RYCircleAutoScrollViewUITests.m */,
+				D54251921D6DA0E8002B3388 /* Info.plist */,
+			);
+			path = RYCircleAutoScrollViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D54251671D6DA0E7002B3388 /* RYCircleAutoScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D54251951D6DA0E8002B3388 /* Build configuration list for PBXNativeTarget "RYCircleAutoScrollView" */;
+			buildPhases = (
+				D54251641D6DA0E7002B3388 /* Sources */,
+				D54251651D6DA0E7002B3388 /* Frameworks */,
+				D54251661D6DA0E7002B3388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RYCircleAutoScrollView;
+			productName = RYCircleAutoScrollView;
+			productReference = D54251681D6DA0E7002B3388 /* RYCircleAutoScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D54251801D6DA0E8002B3388 /* RYCircleAutoScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D54251981D6DA0E8002B3388 /* Build configuration list for PBXNativeTarget "RYCircleAutoScrollViewTests" */;
+			buildPhases = (
+				D542517D1D6DA0E8002B3388 /* Sources */,
+				D542517E1D6DA0E8002B3388 /* Frameworks */,
+				D542517F1D6DA0E8002B3388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D54251831D6DA0E8002B3388 /* PBXTargetDependency */,
+			);
+			name = RYCircleAutoScrollViewTests;
+			productName = RYCircleAutoScrollViewTests;
+			productReference = D54251811D6DA0E8002B3388 /* RYCircleAutoScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D542518B1D6DA0E8002B3388 /* RYCircleAutoScrollViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D542519B1D6DA0E8002B3388 /* Build configuration list for PBXNativeTarget "RYCircleAutoScrollViewUITests" */;
+			buildPhases = (
+				D54251881D6DA0E8002B3388 /* Sources */,
+				D54251891D6DA0E8002B3388 /* Frameworks */,
+				D542518A1D6DA0E8002B3388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D542518E1D6DA0E8002B3388 /* PBXTargetDependency */,
+			);
+			name = RYCircleAutoScrollViewUITests;
+			productName = RYCircleAutoScrollViewUITests;
+			productReference = D542518C1D6DA0E8002B3388 /* RYCircleAutoScrollViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D54251601D6DA0E7002B3388 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RY;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Rainer;
+				TargetAttributes = {
+					D54251671D6DA0E7002B3388 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					D54251801D6DA0E8002B3388 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D54251671D6DA0E7002B3388;
+					};
+					D542518B1D6DA0E8002B3388 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D54251671D6DA0E7002B3388;
+					};
+				};
+			};
+			buildConfigurationList = D54251631D6DA0E7002B3388 /* Build configuration list for PBXProject "RYCircleAutoScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D542515F1D6DA0E7002B3388;
+			productRefGroup = D54251691D6DA0E7002B3388 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D54251671D6DA0E7002B3388 /* RYCircleAutoScrollView */,
+				D54251801D6DA0E8002B3388 /* RYCircleAutoScrollViewTests */,
+				D542518B1D6DA0E8002B3388 /* RYCircleAutoScrollViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D54251661D6DA0E7002B3388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D542517B1D6DA0E7002B3388 /* LaunchScreen.storyboard in Resources */,
+				D54251781D6DA0E7002B3388 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D542517F1D6DA0E8002B3388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D542518A1D6DA0E8002B3388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D54251641D6DA0E7002B3388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D54251731D6DA0E7002B3388 /* RYViewController.m in Sources */,
+				D54251701D6DA0E7002B3388 /* AppDelegate.m in Sources */,
+				D542516D1D6DA0E7002B3388 /* main.m in Sources */,
+				D54251A01D6DA101002B3388 /* RYCircleAutoScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D542517D1D6DA0E8002B3388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D54251861D6DA0E8002B3388 /* RYCircleAutoScrollViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D54251881D6DA0E8002B3388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D54251911D6DA0E8002B3388 /* RYCircleAutoScrollViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D54251831D6DA0E8002B3388 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D54251671D6DA0E7002B3388 /* RYCircleAutoScrollView */;
+			targetProxy = D54251821D6DA0E8002B3388 /* PBXContainerItemProxy */;
+		};
+		D542518E1D6DA0E8002B3388 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D54251671D6DA0E7002B3388 /* RYCircleAutoScrollView */;
+			targetProxy = D542518D1D6DA0E8002B3388 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D54251791D6DA0E7002B3388 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D542517A1D6DA0E7002B3388 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D54251931D6DA0E8002B3388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D54251941D6DA0E8002B3388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D54251961D6DA0E8002B3388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RYCircleAutoScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sand.rainer.RYCircleAutoScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D54251971D6DA0E8002B3388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RYCircleAutoScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sand.rainer.RYCircleAutoScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D54251991D6DA0E8002B3388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RYCircleAutoScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sand.rainer.RYCircleAutoScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RYCircleAutoScrollView.app/RYCircleAutoScrollView";
+			};
+			name = Debug;
+		};
+		D542519A1D6DA0E8002B3388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RYCircleAutoScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sand.rainer.RYCircleAutoScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RYCircleAutoScrollView.app/RYCircleAutoScrollView";
+			};
+			name = Release;
+		};
+		D542519C1D6DA0E8002B3388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RYCircleAutoScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sand.rainer.RYCircleAutoScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RYCircleAutoScrollView;
+			};
+			name = Debug;
+		};
+		D542519D1D6DA0E8002B3388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RYCircleAutoScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sand.rainer.RYCircleAutoScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RYCircleAutoScrollView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D54251631D6DA0E7002B3388 /* Build configuration list for PBXProject "RYCircleAutoScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D54251931D6DA0E8002B3388 /* Debug */,
+				D54251941D6DA0E8002B3388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D54251951D6DA0E8002B3388 /* Build configuration list for PBXNativeTarget "RYCircleAutoScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D54251961D6DA0E8002B3388 /* Debug */,
+				D54251971D6DA0E8002B3388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D54251981D6DA0E8002B3388 /* Build configuration list for PBXNativeTarget "RYCircleAutoScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D54251991D6DA0E8002B3388 /* Debug */,
+				D542519A1D6DA0E8002B3388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D542519B1D6DA0E8002B3388 /* Build configuration list for PBXNativeTarget "RYCircleAutoScrollViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D542519C1D6DA0E8002B3388 /* Debug */,
+				D542519D1D6DA0E8002B3388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D54251601D6DA0E7002B3388 /* Project object */;
+}
