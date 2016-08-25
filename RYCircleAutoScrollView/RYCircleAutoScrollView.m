@@ -142,7 +142,7 @@
         CGSize pageSize = [pageControl sizeForNumberOfPages:pageControl.numberOfPages];
         
         pageControl.bounds = (CGRect){CGPointZero, pageSize};
-        pageControl.center = CGPointMake(self.imageScrollView.center.x, self.imageScrollView.bounds.size.height + 10);
+        pageControl.center = CGPointMake(self.imageScrollView.center.x, self.imageScrollView.bounds.size.height - 10);
         
         // 4.设置分页按钮的颜色
         pageControl.pageIndicatorTintColor = [UIColor grayColor];
@@ -193,8 +193,14 @@
     // 3.取出当前滚动视图的宽度
     CGFloat scrollViewW = self.imageScrollView.bounds.size.width;
     
-    // 4.设置滚动视图的偏移量：实现点击分页按钮滚动图片
+    // 4.添加动画设置滚动视图的偏移量：实现点击分页按钮滚动图片
+    [UIView beginAnimations:nil context:nil];
+    [UIView setAnimationDuration:0.3f];
+    [UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
+    
     self.imageScrollView.contentOffset = CGPointMake(scrollViewW * currentPage, 0);
+    
+    [UIView commitAnimations];
 }
 
 /**
